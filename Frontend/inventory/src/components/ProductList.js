@@ -75,13 +75,12 @@ const Home = () => {
               <td>{product.HSNCode}</td>
               <td>{product.TotalStock}</td>
               <td>
-                <Link to={`/productlist/edit/${product.id}`} className='btn btn-primary me-2'>Edit</Link>
+                <Link to={`/productlist/edit/${product.id}`} id="edit" className='btn btn-primary me-2'>Edit</Link>
                 <button 
                   className='btn btn-danger' 
                   onClick={() => deleteProduct(product.id)}
                 >
-                  Delete
-                </button>
+                  Delete</button>
               </td>
             </tr>
           ))}
