@@ -1,0 +1,47 @@
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .contact-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 26rem;
+    width: 100%;
+  }
+  
+  .form-control,
+  .form-check-input,
+  .btn {
+    font-size: 0.875rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus,
+  .form-check-input:focus,
+  .btn:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
